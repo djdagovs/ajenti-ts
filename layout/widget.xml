@@ -1,0 +1,26 @@
+<hc>
+    <box width="20">
+        <icon id="icon" icon="leaf" />
+    </box>
+    <box width="90">
+        <label id="name" style="bold" text="Teamspeak" />
+    </box>
+    <label id="value" />
+
+    <dialog id="config-dialog" visible="False">
+        <pad>
+            <formline text="{Host}">
+                <textbox default="127.0.0.1" id="host" />
+            </formline>
+            <formline text="{Port}">
+                <textbox default="10011" id="port" type="integer" />
+            </formline>
+            <formline text="{Username}">
+                <textbox id="username" />
+            </formline>
+            <formline text="{Password}">
+                <passwordbox id="password" />
+            </formline>
+        </pad>
+    </dialog>
+</hc>
