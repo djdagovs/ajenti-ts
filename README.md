@@ -2,6 +2,8 @@
 
 Teamspeak Widget for Ajenti Server Controlpanel
 
+![](https://raw.githubusercontent.com/BeryJu/ajenti-ts/master/example.png)
+
 ## Installation
 
 ```bash
